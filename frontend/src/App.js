@@ -1,8 +1,7 @@
-import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 import Main from "./pages/Main";
 import Test from "./pages/Test";
-
+import { RouterProvider } from "react-router-dom";
 const router = createBrowserRouter([
   {
     path: "/",
